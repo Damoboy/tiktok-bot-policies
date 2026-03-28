@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head><title>TikTok OAuth Callback</title></head>
+<body>
+<p>Redirecting to local bot...</p>
+<script>
+  var params = window.location.search;
+  window.location.href = 'http://127.0.0.1:8000/callback' + params;
+</script>
+</body>
+</html>
